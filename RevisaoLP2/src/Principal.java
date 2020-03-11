@@ -8,6 +8,7 @@ public class Principal {
 		ArrayList<Produto> produtoList = new ArrayList<Produto>();
 //		ArrayList<Pessoa> pessoaList = new ArrayList<Pessoa>();
 		//
+		//
 
 		try {
 		//	pessoaList = GerenciaArquivo.lePessoas("*800");
