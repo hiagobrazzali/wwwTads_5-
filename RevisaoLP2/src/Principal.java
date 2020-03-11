@@ -16,7 +16,6 @@ public class Principal {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 		//	System.out.println(produtoList.toString());
 			
 			ProdutoController.maisVendido(produtoList);
