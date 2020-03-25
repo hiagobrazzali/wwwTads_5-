@@ -17,8 +17,6 @@ public class Principal {
 			System.err.println("Erro ao ler arquivo");
 			e.printStackTrace();
 		}
-		// System.out.println(produtoList.toString());
-
 		System.out.println("O produto mais vendido é:\n " + ProdutoController.maisVendido(produtoList).toString());
 		System.out.println("O produto com maior valor é:\n " + ProdutoController.maiorValor(produtoList).toString());
 		System.out.println("O produto com maior quantidade em estoque é:\n " + ProdutoController.maiorQtdEstoque(produtoList).toString());
