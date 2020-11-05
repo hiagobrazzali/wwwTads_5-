@@ -29,7 +29,7 @@ public class Servidor {
 		while (true) {
 			// aceita um cliente
 			Socket cliente = servidor.accept();
-			System.out.println("Nova conexão com o cliente " + cliente.getInetAddress().getHostAddress());
+			System.out.println("Novo cliente conectado: " + cliente.getInetAddress().getHostAddress());
 
 			// adiciona saida do cliente à lista
 			PrintStream ps = new PrintStream(cliente.getOutputStream());

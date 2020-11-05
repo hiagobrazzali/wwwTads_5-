@@ -22,7 +22,7 @@ public class Cliente {
 
 	public void executa() throws UnknownHostException, IOException {
 		Socket cliente = new Socket(this.host, this.porta);
-		System.out.println("O cliente se conectou ao servidor!");
+		System.out.println("Cliente constado ao servidor!"); // AIAI KAREN
 
 		// thread para receber mensagens do servidor
 		Recebedor r = new Recebedor(cliente.getInputStream());
